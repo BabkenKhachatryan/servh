@@ -120,6 +120,7 @@ hr{
     color: #D6DDDE;
     margin: 7px 0;
     
+    
 }
 .block1 .systems1:hover{
     background-color: #1a1c1e85;
@@ -128,21 +129,31 @@ hr{
     background-color: #1a1c1e85;
 }
 .block1 .systems1 p {
-    padding: 0 58px;
+    padding: 0 50px;
 } 
+.block1 .systems1 i{
+    padding:15px;
+    
+}
+.block1 .systems2 i{
+    padding: 15px;
+    position: relative;
+    left:-50px ;
+
+}
 .block1 .systems2 .id2{
-    margin: 0 180px;
+    margin: 0 165px;
 }
 .block1 .systems2 .created2{
     margin: 0 -65px;
 }
 .block1 .systems2 .licenses2 {
     position: relative;
-    left: 182px;
+    left: 166px;
 }
 .block1 .systems2  button{
     position: relative;
-    left: 240px;
+    left: 215px;
 }
 .block1 .systems2{
     display: flex;
@@ -152,7 +163,7 @@ hr{
     border-radius: 4px;
     font-family: 'Roboto', sans-serif;
     color: #D6DDDE;
-    padding: 0 60px;
+    padding: 0 50px;
 }
 .parent .add{
     color: #D6DDDE;
@@ -167,4 +178,65 @@ hr{
     width: 1000px;
     height: 231px;
     margin: 70px 33px;
+}
+.block1 #systems3{
+    background-color: #1A1C1E;
+    width: 1000px;
+    line-height: 44px;
+    border-radius: 4px;
+    font-family: 'Roboto', sans-serif;
+    color: #D6DDDE;
+    margin: 7px 0;
+    display: none;
+    transform: translateY(-50px);
+    transition: 2s;
+}
+.block1 #systems3 p {
+    padding: 0 58px;
+    
+} 
+.block1 #systems4{
+    background-color: #1A1C1E;
+    width: 1000px;
+    line-height: 44px;
+    border-radius: 4px;
+    font-family: 'Roboto', sans-serif;
+    color: #D6DDDE;
+    margin: 7px 0;
+    display: none;
+    transform: translateY(-50px); 
+}
+.block1 #systems4 p {
+    padding: 0 58px;
+} 
+.block1 #systems5{
+    background-color: #1A1C1E;
+    width: 1000px;
+    line-height: 44px;
+    border-radius: 4px;
+    font-family: 'Roboto', sans-serif;
+    color: #D6DDDE;
+    margin: 7px 0;
+    display: none;
+    transform: translateY(-50px)
+}
+.block1 #systems5 p {
+    padding: 0 58px;
+} 
+.block1 #systems6{
+    background-color: #1A1C1E;
+    width: 1000px;
+    line-height: 44px;
+    border-radius: 4px;
+    font-family: 'Roboto', sans-serif;
+    color: #D6DDDE;
+    margin: 7px 0;
+    display: none;
+    transform: translateY(-50px)
+}
+.block1 #systems6 p {
+    padding: 0 58px;
+} 
+#iconb {
+    transition: 1s;
 }
